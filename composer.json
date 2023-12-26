@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "V3labs\\CompanyEmailValidator\\": "src/"
+            "V3labs\\Validator\\": "src/"
         }
     },
     "require-dev": {
@@ -19,7 +19,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "V3labs\\CompanyEmailValidator\\Tests\\": "tests/"
+            "V3labs\\Validator\\Tests\\": "tests/"
         }
     }
 }

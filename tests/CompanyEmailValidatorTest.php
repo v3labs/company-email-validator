@@ -1,9 +1,9 @@
 <?php
 
-namespace V3labs\CompanyEmailValidator\Tests;
+namespace V3labs\Validator\Tests;
 
 use PHPUnit\Framework\TestCase;
-use V3labs\CompanyEmailValidator\CompanyEmailValidator;
+use V3labs\Validator\CompanyEmailValidator;
 
 class CompanyEmailValidatorTest extends TestCase
 {

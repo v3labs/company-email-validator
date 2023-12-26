@@ -1,6 +1,6 @@
 <?php
 
-namespace V3labs\CompanyEmailValidator;
+namespace V3labs\Validator;
 
 use Egulias\EmailValidator\EmailValidator;
 use Egulias\EmailValidator\Validation\DNSCheckValidation;
