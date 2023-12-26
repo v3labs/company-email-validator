@@ -19,7 +19,7 @@ want to validate.
 ```php
 <?php
 
-$validator = new \V3labs\CompanyEmailValidator\CompanyEmailValidator(
+$validator = new \V3labs\Validator\CompanyEmailValidator(
     checkDns: false,      // default
     additionalDomains: [] // default
 );
