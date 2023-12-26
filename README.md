@@ -1,6 +1,6 @@
 Company email validator
 =
-The **v3labs/company-email-validator** package is a PHP library designed 
+The `v3labs/company-email-validator` package is a PHP library designed 
 to validate whether an email address belongs to a company domain or not.
 
 Installation
@@ -12,9 +12,10 @@ composer require v3labs/company-email-validator
 
 Usage
 -
-To use the Company Email Validator, instantiate the CompanyEmailValidator 
-class and call the isCompanyEmail method with the email address you 
-want to validate.
+To use the Company Email Validator, instantiate the `CompanyEmailValidator` 
+class and call the `isValid` method with the email address you want to validate. 
+The validation process can be customized by enabling DNS checks for domain 
+existence and specifying additional domains for more tailored validation.
 
 ```php
 <?php
